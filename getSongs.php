@@ -1,7 +1,5 @@
 <?php
 
-//return json_decode('1234');
-
 $params = json_decode(trim(file_get_contents('php://input')), true);
 
 $id = $params['id'];
