@@ -1,0 +1,11 @@
+<div ng-controller = "mySongs">
+
+    <ul>
+        <li ng-repeat = "song in songs">
+
+            <button ng-click="startAudio($index)">{{song.title}}</button>
+
+        </li>
+    </ul>
+
+</div>
